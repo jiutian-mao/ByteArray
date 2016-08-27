@@ -1,3 +1,11 @@
+//
+//  ByteArray.hpp
+//  GameProject
+//
+//  Created by jt on 15-09-04.
+//
+//
+
 #ifndef __JT_BYTEARRAY_H_
 #define __JT_BYTEARRAY_H_
 
