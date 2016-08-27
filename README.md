@@ -1,7 +1,7 @@
 # ByteArray
 C++版本ByteArray
 
-cocos2d-x与lua数据传输类
+cocos2d-x与lua数据传输操作类
 
 API参考实现：
 
