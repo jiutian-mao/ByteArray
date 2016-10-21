@@ -15,7 +15,7 @@ _flag(-1)
 ByteArray::~ByteArray()
 {
     if (this->_flag == 0 && this->_buffer) {
-        delete this->_buffer;
+        delete[] this->_buffer;
         this->_buffer = nullptr;
         this->_flag = -1;
     }
@@ -30,7 +30,7 @@ ByteArray* ByteArray::create(int len,int endian/* = 0 */)
     if (ba)
     {
         ba->autorelease();
-        ba->_buffer = new char(len);
+        ba->_buffer = new char[len];
         ba->_endian = endian;
         ba->_length = len;
         ba->_flag = 0;
